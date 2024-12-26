@@ -20,7 +20,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 1, duration: 0.4, ease: "easeIn" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten"
         >
           <Image
             src="/assets/IMG_5038.jpeg"
@@ -32,7 +32,7 @@ const Photo = () => {
           />
         </motion.div>
 
-        {/* animation, trying to figure out how to get rectangle to work */}
+        {/* animation, trying to figure out how to get rectangle to work. add absolute to line 23 when done */}
         {/* <motion.svg
           className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
           fill="transparent"
